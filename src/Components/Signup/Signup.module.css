@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(113, 197, 102);
+}
+
+.Sign-up-Header {
+  display: flex;
+  margin-top: 12rem;
+  justify-content: center;
+  margin: 5rem 0 5rem 0;
+}
+
+.img-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-size: cove;
+
+  padding: 0 5rem 0 5rem;
+  background-image: url(../../../public/image.jpg);
+}
+
+.flex2 h1 {
+  color: rgb(0, 75, 26);
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+}
+
+label {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.img-div p {
+}
+
+.Sign-up {
+  padding: 3rem 15rem 5rem 6rem;
+  border-radius: rem;
+  background-color: #fff;
+}
+
+Form {
+  /* margin-top: ;
+  align-items: ; */
+}
+
+.field {
+  padding: 20rem;
+}

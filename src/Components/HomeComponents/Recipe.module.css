@@ -1,0 +1,66 @@
+.Recipe-heading {
+  margin: 12rem 0 10rem 0;
+}
+
+.Recipe-heading h1 {
+  color: rgb(0, 75, 26);
+  font-size: 6rem;
+  font-weight: 600;
+  margin-left: 4rem;
+}
+
+.Recipe-divs-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 5rem;
+}
+
+.Recipe-div {
+  border: 0.1rem solid rgb(0, 75, 26);
+  padding: 2rem 0.2rem 3rem 0.2rem;
+  background-color: rgb(196, 255, 136);
+  border-radius: 0.8rem;
+}
+
+.Recipe-div div {
+  transform: translate(1.5rem, 0.1rem);
+}
+
+.card-1 {
+  margin-right: -3rem;
+}
+.card-2 {
+  margin-right: -0.1rem;
+}
+
+.Recipe-img {
+  width: 25vw;
+}
+
+.link-button {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: rgb(0, 75, 26);
+  background-color: rgb(249, 242, 230);
+  border: 0.1 solid black;
+  padding: 0.8rem 2rem;
+  margin: 2.3rem 30rem 1.8rem 0;
+  border-radius: 0.5rem;
+  border: 0.1rem solid rgb(0, 75, 26);
+}
+
+.link-button {
+  display: block;
+}
+
+.link-button-2 {
+  font-size: 2rem;
+  text-decoration: none;
+  color: rgb(0, 75, 26);
+}
+
+.link-button-2:hover {
+  text-decoration: underline;
+}

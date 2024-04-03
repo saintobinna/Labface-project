@@ -1,0 +1,74 @@
+.health-section {
+  display: flex;
+  position: relative;
+  background-color: #f9f2e6;
+  background-size: cover;
+  padding-bottom: 13rem;
+}
+
+.col-1 {
+  margin: 2rem 0 -2rem 0;
+}
+.col-2 {
+  margin: 5rem 2rem 0 4rem;
+}
+
+.image-leaf {
+  width: 20rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.header_text {
+  line-height: 1.1;
+  margin-top: 10rem;
+  font-size: 9rem;
+  color: rgb(0, 75, 26);
+}
+
+.header_section {
+  display: flex;
+}
+
+.header_img {
+  position: relative;
+  z-index: 2;
+  height: 65rem;
+  width: 60rem;
+  margin-top: 6rem;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  border: 0.3rem solid rgb(196, 255, 136);
+}
+
+.foods_types_icons {
+  margin: 4rem 0 6rem 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.health-logo {
+  width: 7rem;
+
+  margin-right: 7rem;
+}
+
+.logo-txt {
+  color: rgb(0, 75, 26);
+  font-size: 1.3rem;
+  margin: 1.5rem -5rem 0 -3rem;
+}
+
+.shape-2 {
+  position: absolute;
+  margin-left: -6rem;
+  width: 30rem;
+  z-index: 1;
+}
+
+.hero_img_box {
+  background-color: rgb(196, 255, 136);
+  padding: -10rem -1rem;
+}

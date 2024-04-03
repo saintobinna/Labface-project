@@ -1,0 +1,177 @@
+.works_header {
+  background-color: rgb(0, 75, 26);
+  padding-bottom: 20rem;
+  position: relative;
+}
+
+.works_header h2 {
+  margin-left: 2rem;
+  padding-top: 12rem;
+  font-size: 6rem;
+  color: rgb(196, 255, 136);
+}
+
+.how-it-works {
+  display: flex;
+  position: relative;
+}
+
+.div-1 {
+  margin-top: 3rem;
+  margin-left: 2rem;
+}
+.img-1 {
+  background-size: cover;
+  background-position: center;
+  width: 16.5rem;
+  height: 11rem;
+  border-radius: 80%;
+  margin-left: 1rem;
+  margin-top: 5rem;
+  background-image: url(../../../public/works-1.jpg);
+  width: 13rem;
+  height: 12rem;
+  border: solid 0.2rem rgb(196, 255, 136);
+}
+.circles {
+  display: flex;
+}
+
+.div-2 {
+  margin: 28rem 0 0 3rem;
+}
+.img-2 {
+  background-size: cover;
+  background-position: center;
+  width: 16.5rem;
+  height: 11rem;
+  border-radius: 80%;
+  background-image: url(../../../public/works-2.jpg);
+  width: 13rem;
+  height: 12rem;
+  border: solid 0.2rem rgb(196, 255, 136);
+}
+.div-3 {
+  margin: 50rem 0 0 3rem;
+}
+
+.img-3 {
+  background-image: url(../../../public/works-3.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 16.5rem;
+  height: 11rem;
+  border-radius: 80%;
+  width: 13rem;
+  height: 12rem;
+  border: solid 0.2rem rgb(196, 255, 136);
+}
+.div-4 {
+  margin: 72rem 0 0 6rem;
+}
+
+.img-4 {
+  background-image: url(../../../public/works-4.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 13rem;
+  height: 12rem;
+  border-radius: 80%;
+  border: solid 0.2rem rgb(196, 255, 136);
+}
+
+.circles h4 {
+  font-size: 2rem;
+  background-color: rgb(196, 255, 136);
+  margin: 2rem 20rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+  margin-left: -0.5rem;
+  margin-top: -0.5rem;
+  border: solid 0.2rem rgb(0, 75, 26);
+}
+
+h4 {
+  color: rgb(0, 75, 26);
+  padding: 1rem 0 0 1rem;
+}
+
+.circles p {
+  font-size: 2rem;
+  color: rgb(196, 255, 136);
+}
+
+.shape-1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.shape-2 {
+  position: absolute;
+  left: 6rem;
+
+  bottom: 0rem;
+}
+
+.howWorks-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.howWorks-h2 {
+  line-height: 1.3;
+}
+
+.howWorks-2 p {
+  color: rgb(196, 255, 136);
+  font-size: 1.7rem;
+  line-height: 1.2;
+  margin: 4rem 0 5rem 2rem;
+}
+
+.meals-delivery-header {
+  font-weight: 500;
+  display: flex;
+  gap: 10rem;
+  color: rgb(196, 255, 136);
+  font-size: 1.7rem;
+  line-height: 2;
+  margin-left: 2rem;
+}
+
+.meals-delivery-header ul {
+  list-style: none;
+}
+.food_img {
+  background-image: url(../../../public/howWorks/food.jpg);
+  width: 45vw;
+  height: 100.5vh;
+  border-bottom-right-radius: 70rem;
+  border-bottom-left-radius: 70rem;
+  border: solid 0.3rem rgb(196, 255, 136);
+  position: relative;
+  position: absolute;
+  bottom: -8rem;
+  right: 1rem;
+  margin: 15rem 4rem -10rem 0;
+  will-change: transform; /* Optimize for better performance */
+  transform-style: preserve-3d; /* Maintain 3D transformations */
+}
+
+/* To improve visibility of the movement, increase translateY value */
+.food_img.moveUp {
+  transform: translateY(-20px);
+}
+
+.food_img.moveDown {
+  transform: translateY(20px);
+}
+
+.shape-3 {
+  width: 20rem;
+  position: absolute;
+  right: -7rem;
+  bottom: 6rem;
+}

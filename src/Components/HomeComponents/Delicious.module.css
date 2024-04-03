@@ -1,0 +1,25 @@
+.delicious-header {
+  background-color: rgb(249, 242, 230);
+  display: flex;
+  gap: 5.5rem;
+  justify-content: center;
+  margin: 2rem 9rem 3rem 9rem;
+  border-radius: 1rem;
+  padding: 3rem 4rem 6rem 4rem;
+}
+
+.delicious-img {
+  width: 30vw;
+}
+
+.delicious-div-1 h1 {
+  font-size: 6rem;
+  font-weight: 500;
+  line-height: 1.1;
+  margin: 3rem 0 3rem 0;
+  color: rgb(0, 75, 26);
+}
+
+.delicious-div-1 p {
+  margin-bottom: 3rem;
+}

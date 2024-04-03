@@ -1,0 +1,77 @@
+.makers-head {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 7rem;
+  gap: 6rem;
+}
+
+.bgc-circle {
+  background-color: rgb(196, 255, 136);
+  margin: 0 22rem -10rem 22rem;
+  padding: 0.1rem 1rem;
+  border-radius: 50rem;
+  border: 0.1rem solid rgb(0, 75, 26);
+  transform: translate(-4rem, -0.1rem);
+  z-index: 1;
+  position: relative;
+}
+
+.span {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  transform: translate(6rem, -14rem);
+}
+
+span {
+  font-size: 5rem;
+}
+
+.round-text {
+  width: 18rem;
+  transform: translate(0rem, 1rem);
+}
+
+.chef-img {
+  width: 43vw;
+  height: 80vh;
+  border: 0.3rem solid rgb(196, 255, 136);
+  border-radius: 1rem;
+  margin: 0 0rem;
+  z-index: 2;
+  position: relative;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 7rem;
+  margin: 12rem 0 5rem 0;
+  line-height: 1.1;
+  color: rgb(0, 75, 26);
+}
+
+p {
+  color: rgb(0, 75, 26);
+  font-size: 1.7rem;
+  line-height: 1.2;
+}
+
+.social-icons-div {
+  display: flex;
+}
+
+.social-icons {
+  width: 2.5rem;
+  margin: 5rem 2rem 0 0;
+}
+
+.makers-pattern {
+  position: relative;
+  z-index: 4;
+  width: 10rem;
+  transform: translate(-50px, -80px);
+}
+
+.makers-text {
+  margin-top: 15rem;
+}
